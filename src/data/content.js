@@ -4,8 +4,9 @@ export const translations = {
       { label: 'About',    href: '#hero' },
       { label: 'Repos',    href: '#repos' },
       { label: 'Projects', href: '#projects' },
-      { label: 'Skills',   href: '#skills' },
-      { label: 'Contact',  href: '#contact' },
+      { label: 'Skills',      href: '#skills' },
+      { label: 'Experience',  href: '#experience' },
+      { label: 'Contact',     href: '#contact' },
     ],
     hero: {
       greeting: "Hi, I'm",
@@ -17,8 +18,9 @@ export const translations = {
     sections: {
       repos:    { title: 'GitHub Repos',   subtitle: "what i've been building" },
       projects: { title: 'Live Projects',  subtitle: 'deployed & hosted work' },
-      skills:   { title: 'Skills',         subtitle: 'technologies & tools' },
-      contact:  { title: 'Contact',        subtitle: "let's connect" },
+      skills:     { title: 'Skills',      subtitle: 'technologies & tools' },
+      experience: { title: 'Experience', subtitle: 'work & education' },
+      contact:    { title: 'Contact',    subtitle: "let's connect" },
     },
     project: {
       comingSoon: 'coming soon',
@@ -42,6 +44,7 @@ export const translations = {
       { label: 'Repos',       href: '#repos' },
       { label: 'Projekt',     href: '#projects' },
       { label: 'Färdigheter', href: '#skills' },
+      { label: 'Erfarenhet',  href: '#experience' },
       { label: 'Kontakt',     href: '#contact' },
     ],
     hero: {
@@ -54,8 +57,9 @@ export const translations = {
     sections: {
       repos:    { title: 'GitHub Repos',     subtitle: 'det jag byggt' },
       projects: { title: 'Levande Projekt',  subtitle: 'driftsatta & hostate arbeten' },
-      skills:   { title: 'Färdigheter',      subtitle: 'teknologier & verktyg' },
-      contact:  { title: 'Kontakt',          subtitle: 'låt oss koppla upp oss' },
+      skills:     { title: 'Färdigheter',  subtitle: 'teknologier & verktyg' },
+      experience: { title: 'Erfarenhet',  subtitle: 'arbete & utbildning' },
+      contact:    { title: 'Kontakt',     subtitle: 'låt oss koppla upp oss' },
     },
     project: {
       comingSoon: 'kommer snart',
