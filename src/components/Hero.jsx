@@ -1,9 +1,9 @@
 import { useContext } from 'react'
 import { LanguageContext } from '../context/LanguageContext'
 import { translations } from '../data/content'
+import prfilbild from './prfilbild.jpg'
 
 const GITHUB_URL = 'https://github.com/hppy-squid'
-const AVATAR_URL = './prfilbild.jpg'
 
 export default function Hero() {
   const { lang } = useContext(LanguageContext)
@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="animate-float">
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border-2 border-[#bb86fc]/50 animate-pulse-ring">
               <img
-                src={AVATAR_URL}
+                src={prfilbild}
                 alt="Felicia Karlsson"
                 className="w-full h-full object-cover"
               />
