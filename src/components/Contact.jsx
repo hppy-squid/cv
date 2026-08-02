@@ -5,9 +5,9 @@ import { useInView } from '../hooks/useInView'
 import SectionHeader from './SectionHeader'
 
 const LINKS = {
-  email:    { href: 'mailto:your@email.com',              label: 'your@email.com' },
+  email:    { href: 'mailto:felizia02@icloud.com',              label: 'felizia02@icloud.com' },
   github:   { href: 'https://github.com/hppy-squid',      label: 'hppy-squid', target: '_blank' },
-  linkedin: { href: '#',                                   label: 'linkedin.com/in/felicia', target: '_blank' },
+  linkedin: { href: 'https://www.linkedin.com/in/felicia-karlsson-696969q/',                                   label: 'linkedin.com/in/felicia', target: '_blank' },
 }
 
 function ContactItem({ icon, labelKey, info, accent }) {

@@ -3,7 +3,7 @@ import { LanguageContext } from '../context/LanguageContext'
 import { translations } from '../data/content'
 
 const GITHUB_URL = 'https://github.com/hppy-squid'
-const AVATAR_URL = 'https://avatars.githubusercontent.com/u/179570133?v=4'
+const AVATAR_URL = 'cv/src/components/prfilbild.jpg'
 
 export default function Hero() {
   const { lang } = useContext(LanguageContext)
